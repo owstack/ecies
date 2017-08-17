@@ -1,0 +1,45 @@
+{
+  "name": "btccore-ecies",
+  "version": "1.0.3",
+  "description": "ECIES implemented for Btccore.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owstack/btccore-ecies.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "btccore",
+    "ecies",
+    "crypto",
+    "cryptography",
+    "encryption"
+  ],
+  "author": "Open Wallet Stack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owstack/btccore-ecies/issues"
+  },
+  "homepage": "https://github.com/owstack/btccore-ecies",
+  "devDependencies": {
+    "assert": "^1.1.2",
+    "btccore-build": "git://github.com/owstack/btccore-build.git",
+    "brfs": "^1.2.0",
+    "browserify": "^8.1.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "dependencies": {
+    "aes": "^0.1.0",
+    "btccore-lib": "git://github.com/owstack/btccore-lib.git#master"
+  }
+}
