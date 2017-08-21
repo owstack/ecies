@@ -11,6 +11,10 @@ See [the main btccore repo](https://github.com/owstack/btccore) or the [btccore 
 
 Credit to [@ryanxcharles][ryan] for the original implementation.
 
+## Attribution
+
+This repository was created by copy forking [bitcore-ecies commit fa3e7f0] (https://github.com/bitpay/bitcore-ecies/commit/fa3e7f0e0e47c9a6f5ec4e52e06ff8da45912b8c).
+
 ## Getting started
 
 ECIES will allow to securely encrypt and decrypt messages using ECDSA key pairs (bitcoin cryptography).
