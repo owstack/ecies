@@ -139,7 +139,7 @@ describe('ECIES', function() {
     var alicePrivateKey = new btccore.PrivateKey.fromObject({
       bn: '1fa76f9c799ca3a51e2c7c901d3ba8e24f6d870beccf8df56faf30120b38f360',
       compressed: false,
-      network: 'livenet/btc'
+      network: 'livenet'
     });
     var alicePublicKey = new btccore.PublicKey.fromPrivateKey(alicePrivateKey); // alicePrivateKey.publicKey
     alicePrivateKey.compressed.should.equal(false);
@@ -159,7 +159,7 @@ describe('ECIES', function() {
     var alicePrivateKey = new btccore.PrivateKey.fromObject({
       bn: '1fa76f9c799ca3a51e2c7c901d3ba8e24f6d870beccf8df56faf30120b38f360',
       compressed: true,
-      network: 'livenet/btc'
+      network: 'livenet'
     });
     var alicePublicKey = new btccore.PublicKey.fromPrivateKey(alicePrivateKey); // alicePrivateKey.publicKey
     alicePrivateKey.compressed.should.equal(true);
