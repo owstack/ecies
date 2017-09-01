@@ -3,10 +3,7 @@
   "main": "./btccore-ecies.min.js",
   "version": "0.0.1",
   "homepage": "https://github.com/owstack/btccore-ecies",
-  "authors": [
-    "Open Wallet Stack"
-  ],
-  "description": "ECIES implemented for Btccore.",
+  "description": "ECIES support for Btccore.",
   "moduleType": [
     "globals"
   ],
