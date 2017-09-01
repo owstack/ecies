@@ -1,7 +1,7 @@
 {
   "name": "btccore-ecies",
   "version": "0.0.1",
-  "description": "ECIES implemented for Btccore.",
+  "description": "ECIES support for Btccore.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -24,7 +24,6 @@
     "cryptography",
     "encryption"
   ],
-  "author": "Open Wallet Stack",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/owstack/btccore-ecies/issues"

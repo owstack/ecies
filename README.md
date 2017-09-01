@@ -1,5 +1,5 @@
-<img src="http://btccore.io/css/images/module-ecies.png" alt="btccore ecies" height="35">
-# ECIES for btccore
+Btccore ECIES
+======
 
 [![NPM Package](https://img.shields.io/npm/v/btccore-ecies.svg?style=flat-square)](https://www.npmjs.org/package/btccore-ecies)
 [![Build Status](https://img.shields.io/travis/owstack/btccore-ecies.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-ecies)
