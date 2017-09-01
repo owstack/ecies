@@ -1,6 +1,6 @@
 {
   "name": "btccore-ecies",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "description": "ECIES implemented for Btccore.",
   "main": "index.js",
   "directories": {
