@@ -1,15 +1,15 @@
 {
-  "name": "btccore-ecies",
-  "main": "./btccore-ecies.min.js",
+  "name": "btc-ecies",
+  "main": "./btc-ecies.min.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/owstack/btccore-ecies",
-  "description": "ECIES support for Btccore.",
+  "homepage": "https://github.com/owstack/btc-ecies",
+  "description": "ECIES support for Btc.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
-    "btccore",
+    "btc",
     "btc",
     "satoshi",
     "ecies"

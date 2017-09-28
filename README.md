@@ -1,13 +1,13 @@
-Btccore ECIES
+Btc ECIES
 ======
 
-[![NPM Package](https://img.shields.io/npm/v/btccore-ecies.svg?style=flat-square)](https://www.npmjs.org/package/btccore-ecies)
-[![Build Status](https://img.shields.io/travis/owstack/btccore-ecies.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-ecies)
-[![Coverage Status](https://img.shields.io/coveralls/owstack/btccore-ecies.svg?style=flat-square)](https://coveralls.io/r/owstack/btccore-ecies)
+[![NPM Package](https://img.shields.io/npm/v/btc-ecies.svg?style=flat-square)](https://www.npmjs.org/package/btc-ecies)
+[![Build Status](https://img.shields.io/travis/owstack/btc-ecies.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-ecies)
+[![Coverage Status](https://img.shields.io/coveralls/owstack/btc-ecies.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-ecies)
 
-A module for [btccore][btccore] that implements the [Elliptic Curve Integrated Encryption Scheme (ECIES)][ECIES]. Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
+A module for [btc][btc] that implements the [Elliptic Curve Integrated Encryption Scheme (ECIES)][ECIES]. Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
 
-See [the main btccore repo](https://github.com/owstack/btccore) or the [btccore guide on ECIES](http://btccore.io/guide/module/ecies/index.html) for more information.
+See [the main btc repo](https://github.com/owstack/btc) or the [btc guide on ECIES](http://btc.io/guide/module/ecies/index.html) for more information.
 
 Credit to [@ryanxcharles][ryan] for the original implementation.
 
@@ -40,14 +40,14 @@ var decrypted = bob
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/owstack/btccore/blob/master/CONTRIBUTING.md) on the main btccore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/owstack/btc/blob/master/CONTRIBUTING.md) on the main btc repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/btccore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/btc/blob/master/LICENSE).
 
-Copyright 2017 Open Wallet Stack. Btccore is a trademark maintained by Open Wallet Stack.
+Copyright 2017 Open Wallet Stack.
 
-[btccore]: http://github.com/owstack/btccore
+[btc]: http://github.com/owstack/btc
 [ECIES]: http://en.wikipedia.org/wiki/Integrated_Encryption_Scheme
 [ryan]: http://github.com/ryanxcharles

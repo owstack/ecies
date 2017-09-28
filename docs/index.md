@@ -1,7 +1,7 @@
 # ECIES
-Btccore implements [Elliptic Curve Integrated Encryption Scheme (ECIES)](http://en.wikipedia.org/wiki/Integrated_Encryption_Scheme), which is a public key encryption system that performs bulk encryption on data using a symmetric cipher and a random key.
+Implements [Elliptic Curve Integrated Encryption Scheme (ECIES)](http://en.wikipedia.org/wiki/Integrated_Encryption_Scheme), which is a public key encryption system that performs bulk encryption on data using a symmetric cipher and a random key.
 
-For more information refer to the [btccore-ecies](https://github.com/owstack/btccore-ecies) github repo.
+For more information refer to the [btc-ecies](https://github.com/owstack/btc-ecies) github repo.
 
 ## Installation
 ECIES is implemented as a separate module and you must add it to your dependencies:
@@ -9,23 +9,23 @@ ECIES is implemented as a separate module and you must add it to your dependenci
 For node projects:
 
 ```bash
-npm install btccore-ecies --save
+npm install btc-ecies --save
 ```
 
 For client-side projects:
 
 ```bash
-bower install btccore-ecies --save
+bower install btc-ecies --save
 ```
 
 ## Example
 
 ```javascript
-var btccore = require('btccore-lib');
-var ECIES = require('btccore-ecies');
+var btcLib = require('btc-lib');
+var ECIES = require('btc-ecies');
 
-var alicePrivateKey = new btccore.PrivateKey();
-var bobPrivateKey = new btccore.PrivateKey();
+var alicePrivateKey = new btcLib.PrivateKey();
+var bobPrivateKey = new btcLib.PrivateKey();
 
 var data = new Buffer('The is a raw data example');
 
