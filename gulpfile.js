@@ -1,3 +1,3 @@
 'use strict';
 var owsTasks = require('ows-build');
-owsTasks('btccore', 'ecies');
+owsTasks('btc', 'ecies');

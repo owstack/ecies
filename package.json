@@ -1,7 +1,7 @@
 {
-  "name": "btccore-ecies",
+  "name": "btc-ecies",
   "version": "0.0.1",
-  "description": "ECIES support for Btccore.",
+  "description": "ECIES support for Btc.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/owstack/btccore-ecies.git"
+    "url": "https://github.com/owstack/btc-ecies.git"
   },
   "keywords": [
     "bitcoin",
-    "btccore",
+    "btc",
     "ecies",
     "crypto",
     "cryptography",
@@ -26,12 +26,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/owstack/btccore-ecies/issues"
+    "url": "https://github.com/owstack/btc-ecies/issues"
   },
-  "homepage": "https://github.com/owstack/btccore-ecies",
+  "homepage": "https://github.com/owstack/btc-ecies",
   "dependencies": {
     "aes": "^0.1.0",
-    "btccore-lib": "https://github.com/owstack/btccore-lib"
+    "btc-lib": "https://github.com/owstack/btc-lib"
   },
   "devDependencies": {
     "assert": "^1.1.2",
