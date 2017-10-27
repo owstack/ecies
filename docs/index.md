@@ -21,8 +21,8 @@ bower install btc-ecies --save
 ## Example
 
 ```javascript
-var btcLib = require('btc-lib');
-var ECIES = require('btc-ecies');
+var btcLib = require('@owstack/btc-lib');
+var ECIES = require('@owstack/btc-ecies');
 
 var alicePrivateKey = new btcLib.PrivateKey();
 var bobPrivateKey = new btcLib.PrivateKey();
