@@ -1,6 +1,6 @@
 {
   "name": "@owstack/btc-ecies",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ECIES support for Btc.",
   "main": "index.js",
   "directories": {
@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/owstack/btc-ecies",
   "dependencies": {
-    "@owstack/btc-lib": "^0.0.3",
+    "@owstack/btc-lib": "^0.0.4",
     "aes": "^0.1.0"
   },
   "devDependencies": {
