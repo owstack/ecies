@@ -29,5 +29,5 @@ node_modules
 
 
 tests.js
-ecies.js
-ecies.min.js
+ows-ecies.js
+ows-ecies.min.js
