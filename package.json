@@ -1,6 +1,6 @@
 {
   "name": "@owstack/ecies",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ECIES support for OWS.",
   "main": "index.js",
   "directories": {
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@owstack/btc-lib": "^0.1.27",
-    "@owstack/ows-build": "^0.0.12",
+    "@owstack/ows-build": "^0.1.0",
     "assert": "^1.1.2"
   }
 }
