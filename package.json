@@ -1,7 +1,7 @@
 {
-  "name": "@owstack/btc-ecies",
-  "version": "0.0.4",
-  "description": "ECIES support for Btc.",
+  "name": "@owstack/ecies",
+  "version": "1.0.0",
+  "description": "ECIES support for OWS.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/owstack/btc-ecies.git"
+    "url": "https://github.com/owstack/ecies.git"
   },
   "keywords": [
     "bitcoin",
@@ -26,15 +26,17 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/owstack/btc-ecies/issues"
+    "url": "https://github.com/owstack/ecies/issues"
   },
-  "homepage": "https://github.com/owstack/btc-ecies",
+  "homepage": "https://github.com/owstack/ecies",
   "dependencies": {
-    "@owstack/btc-lib": "^0.0.4",
+    "@owstack/key-lib": "^0.0.41",
+    "@owstack/ows-common": "0.0.17",
     "aes": "^0.1.0"
   },
   "devDependencies": {
-    "@owstack/ows-build": "^0.0.3",
+    "@owstack/btc-lib": "^0.1.27",
+    "@owstack/ows-build": "^0.0.12",
     "assert": "^1.1.2",
     "brfs": "^1.2.0",
     "browserify": "^8.1.0",

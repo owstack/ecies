@@ -1,7 +1,7 @@
 # ECIES
 Implements [Elliptic Curve Integrated Encryption Scheme (ECIES)](http://en.wikipedia.org/wiki/Integrated_Encryption_Scheme), which is a public key encryption system that performs bulk encryption on data using a symmetric cipher and a random key.
 
-For more information refer to the [btc-ecies](https://github.com/owstack/btc-ecies) github repo.
+For more information refer to the [ecies](https://github.com/owstack/ecies) github repo.
 
 ## Installation
 ECIES is implemented as a separate module and you must add it to your dependencies:
@@ -9,23 +9,17 @@ ECIES is implemented as a separate module and you must add it to your dependenci
 For node projects:
 
 ```bash
-npm install btc-ecies --save
-```
-
-For client-side projects:
-
-```bash
-bower install btc-ecies --save
+npm install @owstack/ecies --save
 ```
 
 ## Example
 
 ```javascript
-var btcLib = require('@owstack/btc-lib');
-var ECIES = require('@owstack/btc-ecies');
+var keyLib = require('@owstack/key-lib');
+var ECIES = require('@owstack/ecies');
 
-var alicePrivateKey = new btcLib.PrivateKey();
-var bobPrivateKey = new btcLib.PrivateKey();
+var alicePrivateKey = new keyLib.PrivateKey();
+var bobPrivateKey = new keyLib.PrivateKey();
 
 var data = new Buffer('The is a raw data example');
 
