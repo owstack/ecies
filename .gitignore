@@ -29,5 +29,5 @@ node_modules
 
 
 tests.js
-btc-ecies.js
-btc-ecies.min.js
+ecies.js
+ecies.min.js
